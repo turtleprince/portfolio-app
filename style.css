@@ -1,0 +1,112 @@
+body{
+    margin:0 ;
+    padding-top: 800px;
+}
+.profile{
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+#welcome{
+    z-index: 9;
+    background: linear-gradient(#34eb4c 0%,#3437eb 100%);
+    position: absolute;
+    overflow: hidden;
+    color: white;
+    opacity: 0.83;
+    display: table;
+    top:50px;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+#about{
+    background: linear-gradient(#34eb4c 0%,#3437eb 100%);
+    font-size: 21px;
+    position: absolute;
+    top: 450px;
+    margin-top: 50px;
+    margin-bottom: 50px; 
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index:8;
+    height: 400px;
+   
+}
+#videos{
+    background: linear-gradient(#34eb4c 0%,#3437eb 100%);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index:7;
+}
+#work{
+    background: linear-gradient(#34eb4c 0%,#3437eb 100%);
+    margin-top: 50px;
+    text-align:center;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index:7;
+}
+#writings{
+    background: linear-gradient(#34eb4c 0%,#3437eb 100%);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align:center;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index:7;
+}
+.links{
+    font-size: 25px;
+    color: white;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.menu{
+    list-style: none;
+    position: fixed;
+    background:bisque;
+    top: 0px;
+    width: 100%;
+    margin-top: 0px;
+    z-index: 10;
+    cursor: pointer;
+}
+.links:hover{
+    background-color: yellowgreen;
+}
+h1{
+    font-size: 50px;
+    color: chocolate;
+}
+a{
+    text-decoration: none;
+    color: coral;
+    text-shadow: 2px 2px darkolivegreen;
+
+}
+#writings a{
+    text-decoration: underline  !important;
+    text-decoration-color: black !important;
+    color:white !important;
+
+}
+.article:hover{
+    color: coral;
+}
+#name{
+    color: deeppink;
+    text-shadow: 2px 2px goldenrod;
+}
+
+.contact_1 a{
+    color:blue!important;
+    text-shadow: none !important;
+
+}
